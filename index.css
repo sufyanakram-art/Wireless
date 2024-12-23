@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccccc; /* Gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 125%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.slot {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slot h2 {
+    color: #333;
+}
+
+/* Status, Percentage, and Time Left */
+.slot p {
+    margin: 5px 0;
+}
+
+.slot .status, .slot .percentage, .slot .time-left, .slot .cost {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.slot i {
+    margin-right: 10px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Pay Now button specific styles */
+.pay-now-btn {
+    background-color: #FF5722;
+}
+
+.pay-now-btn:hover {
+    background-color: #E64A19;
+}
+
+/* Align buttons side by side */
+.slot .button-container {
+    display: flex;
+    justify-content: space-between; /* Align buttons to left and right */
+    margin-top: 10px;
+}
+
+.slot .button-container button {
+    width: 50%; /* Make each button take up almost half of the space */
+}
